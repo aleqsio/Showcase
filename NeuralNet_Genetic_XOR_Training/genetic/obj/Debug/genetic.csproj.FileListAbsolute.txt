@@ -1,0 +1,6 @@
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\bin\Debug\genetic.exe.config
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\bin\Debug\genetic.exe
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\bin\Debug\genetic.pdb
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\obj\Debug\genetic.csprojResolveAssemblyReference.cache
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\obj\Debug\genetic.exe
+C:\Users\User\Alek dokumenty\git_bitbucket\wdi_projekty_2\genetic\genetic\obj\Debug\genetic.pdb

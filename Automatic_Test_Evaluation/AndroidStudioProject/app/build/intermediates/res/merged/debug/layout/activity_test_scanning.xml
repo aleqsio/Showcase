@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aleqsio.testscanning.TestScanningActivity"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView"
+                    android:padding="10dp"
+                    android:textColor="@color/label"
+                    android:text="@string/label_scanning" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Automatic exam scanning tech demo"
+                        android:textColor="@color/label_important"
+                        android:id="@+id/textView2"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical|left"
+                        android:gravity="center_vertical|left"
+                        android:layout_alignParentTop="true"
+                        android:translationZ="0dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="16 questions"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center_vertical|left"
+                    android:textColor="@color/label"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:paddingBottom="20dp"
+                    android:translationZ="0dp" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="10">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/camerapreviewlayout"
+                android:layout_margin="9dp"
+                android:layout_weight="3"
+                android:layout_gravity="top">
+
+                <SurfaceView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/previewsurfaceview"
+                    android:layout_weight="5"
+                    android:layout_gravity="center"
+                    android:background="@drawable/stroke"
+                    android:elevation="10dp"
+
+                    android:clipToPadding="false"
+                android:outlineProvider="bounds"
+
+                    />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:indeterminate="false"
+                    android:layout_gravity="center"
+                    android:progress="100"
+                    android:max="100"
+                    android:visibility="invisible"
+                    android:elevation="10dp" />
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:padding="5dp"
+                android:layout_weight="7"
+                android:layout_gravity="bottom"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center_horizontal|top"
+                    android:textColor="@android:color/black"
+                    android:typeface="normal"
+                    android:textStyle="italic"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/center"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/resulttextview"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
+                    android:layout_below="@+id/textView4"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:text="Answers:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/editText"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/textView5" />
+
+                <Button
+                    android:text="APPLY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:elevation="0dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="13_1_1_1_1_1_1_1_1_1_1"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/textView5"
+                    android:layout_toEndOf="@+id/textView5" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

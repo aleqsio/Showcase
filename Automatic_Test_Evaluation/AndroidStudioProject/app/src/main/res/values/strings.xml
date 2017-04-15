@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test Scanning</string>
+    <string name="label_scanning">Currently scanning:</string>
+    <string name="left">Move your device to the right</string>
+    <string name="right">Move your device to the left</string>
+    <string name="center">Place the sheet in the frame to scan</string>
+    <string name="wait">Please wait</string>
+</resources>

@@ -1,0 +1,4 @@
+#Thu Apr 13 22:47:27 CEST 2017
+base.0=C\:\\Users\\User\\Documents\\MEGAsync\\Automatic_Test_Evaluation\\AndroidStudioProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\User\\Documents\\MEGAsync\\Automatic_Test_Evaluation\\AndroidStudioProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
