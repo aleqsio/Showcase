@@ -1,0 +1,52 @@
+﻿#   linie oznaczone @ na początku to kategorie, np: SOSY, MAKARONY itd.
+#   linie bez @ na początku to pozycje w menu w danej kategorii, mają 3 pola oddzielone znakiem $:
+#   nazwa, cena, składniki
+#   linie oznaczone znakiem # to komentarze, ignorowane przez stronę
+
+@kawa
+mała czarna$3,50zł$
+duża czarna$4,50zł$
+mała z mlekiem$4,50zł$
+duża z mlekiem$5,50zł$
+espresso$4zł$
+cappucino$6,50zł$
+latte macchiato$7,50zł$
+@herbata
+różne smaki$3,50zł$czarna, zielona, owocowa
+@ciasto dnia
+kawałek$3zł$
+@burgery wegańskie
+grzybowy$14zł$
+firmowy$14zł$
+@Mięso
+chili con carne$15zł$
+@zupy dnia
+mała zupa$5zł$250ml
+duża zupa$7zł$450ml
+@makarony
+wstążki z łososiem w sosie śmietanowo-koperkowym$16zł$
+wstążki z sosem śmietanowym, ze szpinakiem i gorgonzolą$16zł$
+wstążki z sosem pieczarkowym ze śmietaną$12zł$
+wstążki z sosem pomidorowym z czosnkiem, cebulą i selerem naciowym$11zł$
+@pierogi
+$$wybór własnoręczny
+pierogi ruskie$13zł$7 sztuk
+pierogi ze szpinakiem i serem bałkańskim$13zł$7 sztuk
+pierogi z soczewicą$13zł$7 sztuk
+@sałatki
+sałatka z kurczakiem w curry$15zł$
+sałatka nicejska$13zł$
+sałatka grecka$12zł$
+sałatka "Małe co nieco"$11zł$
+sałatka caprese$10zł$
+@bomby witaminowe
+$$świeżo wyciskane soki
+Mistrzowie detoksu$8zł$
+$$-burak, marchew, jabłko
+$$-marchew, cytryna, olej lniany
+Strażnicy wagi$8zł$
+$$-jabłko, morela, cynamon
+Dostawcy energii$8zł$
+$$-shake bananowo-czekoladowy
+Pogromcy stresu$8zł$
+$$-marchewka, korzeń selera, burak
